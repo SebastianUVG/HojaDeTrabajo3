@@ -140,7 +140,11 @@ public class Sorts {
         array[j] = temp;
     }
 
-
+/**
+ * radixSort
+ * @param <T>
+ * @param array
+ */
 
     public static <T extends Comparable<T>> void radixSort(T[] array) {
         if (array.length == 0) {
@@ -157,7 +161,12 @@ public class Sorts {
         }
     }
 
-
+/**
+ * El que analiza el array o la lista para realizar los cambios necesarios.
+ * @param <T>
+ * @param array
+ * @param exp
+ */
     private static <T extends Comparable<T>> void countingSort(T[] array, int exp) {
         int n = array.length;
         T[] output = Arrays.copyOf(array, n);

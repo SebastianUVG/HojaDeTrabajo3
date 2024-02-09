@@ -20,6 +20,12 @@ public class App
             //Sorts.quickSort(arreglo, 0, arreglo.length-1);
             //Sorts.mergeSort(arreglo);
             Sorts.radixSort(arreglo);
+            //Integer[] arregloOrdenado = arreglo.clone();
+            //Sorts.bubbleSort(arregloOrdenado);
+            //Sorts.mergeSort(arregloOrdenado);
+            //Sorts.quickSort(arrearregloOrdenadoglo, 0, arregloOrdenado.length-1);
+            //Sorts.mergeSort(arregloOrdenado);
+            //Sorts.radixSort(arregloOrdenado);
             System.out.println("Arreglo de tamaño " + i + ": " + java.util.Arrays.toString(arreglo));
         }
     }
