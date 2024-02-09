@@ -13,8 +13,8 @@ public class App
             for (int x = 0 ; x<i ; x++){
                 arreglo[x] = (int)Math.floor(Math.random()*3000);
             }
-            Sorts.bubbleSort(arreglo);
-
+            //Sorts.bubbleSort(arreglo);
+            Sorts.mergeSort(arreglo);
             System.out.println("Arreglo de tamaño " + i + ": " + java.util.Arrays.toString(arreglo));
         }
     }
